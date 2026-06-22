@@ -1,0 +1,4 @@
+interface:
+  display_name: "Widescreen Highlight"
+  short_description: "Make 16:9 subtitled highlight clips"
+  default_prompt: "Use $make-widescreen-highlight to convert this portrait video to 16:9, add bilingual subtitles, and cut the best short highlight."
