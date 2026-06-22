@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Music Video"
+  short_description: "Turn photos and live clips into music videos"
+  default_prompt: "Use $photo-music-video to make a beat-timed slideshow video from photos, Live Photo clips, and background music."

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+# Local render outputs and scratch folders
+_photo_music_video_work/
+*_video_work/
+*.mp4
+*.mov
+*.m4v
+*.m4a
+*.wav
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
