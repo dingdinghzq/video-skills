@@ -15,6 +15,22 @@ skills/
 
 ## Skills
 
+### create-bilingual-subtitles
+
+Generate English and Simplified Chinese bilingual subtitles for local video files using OpenAI transcription and translation. It creates English, Chinese, bilingual SRT/ASS subtitle files, a soft-subtitle MP4, and a burned-in subtitle MP4; it can also reburn manually edited SRT or ASS files without calling OpenAI.
+
+Run the full pipeline:
+
+```powershell
+python skills/create-bilingual-subtitles/scripts/create_bilingual_subtitles.py "input.mp4"
+```
+
+Reburn an edited subtitle file:
+
+```powershell
+python skills/create-bilingual-subtitles/scripts/create_bilingual_subtitles.py "input.mp4" --reburn-srt "input.bilingual.srt"
+```
+
 ### make-widescreen-highlight
 
 Convert portrait or phone-shot talking videos into 16:9 widescreen videos with a zoomed blurred background, centered original video, English/Simplified Chinese subtitles, a selectable-subtitle full MP4, and a short bilingual burned-caption highlight selected from the timed subtitles.
