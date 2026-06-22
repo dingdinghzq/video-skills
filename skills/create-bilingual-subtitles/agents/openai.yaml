@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Bilingual Subtitles"
+  short_description: "Generate bilingual subtitles for videos"
+  default_prompt: "Use $create-bilingual-subtitles to add English and Chinese subtitles to the video in the current folder."
